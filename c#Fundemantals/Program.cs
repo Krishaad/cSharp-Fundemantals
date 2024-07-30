@@ -112,10 +112,7 @@
 
 
 
-public static void CalculateYearlyWage(int monthlyWage)
-{
 
-}
 
 
 
