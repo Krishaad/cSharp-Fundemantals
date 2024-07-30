@@ -1,47 +1,47 @@
 ﻿
 
-using System.Text;
+//using System.Text;
 
-int monthlyWage = 1234;
+//int monthlyWage = 1234;
 
-int months = 12, bonus = 1000;
+//int months = 12, bonus = 1000;
 
-bool isActive = true;
+//bool isActive = true;
 
-double rating = 99.25;
+//double rating = 99.25;
 
-double ratePerHour = 11.44;
-int numberOfHoursWorked = 165;
+//double ratePerHour = 11.44;
+//int numberOfHoursWorked = 165;
 
-double currentMonthWage = ratePerHour + numberOfHoursWorked;
+//double currentMonthWage = ratePerHour + numberOfHoursWorked;
 
 //Console.WriteLine(currentMonthWage);
 
-int intMaxValue = int.MaxValue;
-int intMinValue = int.MinValue;
+//int intMaxValue = int.MaxValue;
+//int intMinValue = int.MinValue;
 
-char userSelection = 'a';
-char upperVersion = char.ToUpper(userSelection);
+//char userSelection = 'a';
+//char upperVersion = char.ToUpper(userSelection);
 
 
-bool isUpper = char.IsUpper(upperVersion);
-bool isDigit = char.IsDigit(upperVersion);
+//bool isUpper = char.IsUpper(upperVersion);
+//bool isDigit = char.IsDigit(upperVersion);
 
 //Console.WriteLine(isUpper);
 //Console.WriteLine(isDigit);
 
 //Working with dates
 
-DateTime hireDate = new DateTime(2021, 3, 28, 14, 30, 0);
+//DateTime hireDate = new DateTime(2021, 3, 28, 14, 30, 0);
 //Console.WriteLine(hireDate);
 
-DateTime startDate = hireDate.AddDays(15);
+//DateTime startDate = hireDate.AddDays(15);
 
 //Console.WriteLine(startDate);
 
-DateTime startHour = DateTime.Now;
-TimeSpan workTime = new TimeSpan(8, 35, 0);
-DateTime endHour = startHour.Add(workTime);
+//DateTime startHour = DateTime.Now;
+//TimeSpan workTime = new TimeSpan(8, 35, 0);
+//DateTime endHour = startHour.Add(workTime);
 
 //Console.WriteLine(endHour);
 
@@ -51,44 +51,44 @@ DateTime endHour = startHour.Add(workTime);
 //Converting between types
 
 
-long veryLongMonth = numberOfHoursWorked;
-double d = 1231413423423432.0;
-int x =(int)d;
+//long veryLongMonth = numberOfHoursWorked;
+//double d = 1231413423423432.0;
+//int x = (int)d;
 
 
-string fname = "Bethany";
-string lname = "Smith";
+//string fname = "Bethany";
+//string lname = "Smith";
 
-var userName = "BethanyS";
+//var userName = "BethanyS";
 
 
-int l = fname.Length;
+//int l = fname.Length;
 
-bool a = fname.Contains('q');//false
+//bool a = fname.Contains('q');//false
 
-string fullName = String.Concat(fname, lname);
+//string fullName = String.Concat(fname, lname);
 
 
 
 //Console.WriteLine(fullName);
 
 
-string displayName = $"Welcome!\n{fname}\t{lname}";
+//string displayName = $"Welcome!\n{fname}\t{lname}";
 //Console.WriteLine(displayName);
 
 
 
-StringBuilder sb = new StringBuilder();
+//StringBuilder sb = new StringBuilder();
 
-string name = "Bethany";
+//string name = "Bethany";
 
-string lastName = "Smith";
+//string lastName = "Smith";
 
-sb.Append("First Name: ");
-sb.Append(name);
-sb.Append("\n");
-sb.Append("Last name: ");
-sb.Append(lastName);
+//sb.Append("First Name: ");
+//sb.Append(name);
+//sb.Append("\n");
+//sb.Append("Last name: ");
+//sb.Append(lastName);
 
 //Console.WriteLine(sb);
 
@@ -102,7 +102,7 @@ sb.Append(lastName);
 
 //if (int.TryParse(wage, out wageValue))
 //{
-//    Console.WriteLine("Parsing success "+wageValue);
+//    Console.WriteLine("Parsing success " + wageValue);
 
 //}
 //else
@@ -112,6 +112,10 @@ sb.Append(lastName);
 
 
 
+public static void CalculateYearlyWage(int monthlyWage)
+{
+
+}
 
 
 
